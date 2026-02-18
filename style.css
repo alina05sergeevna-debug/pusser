@@ -1,0 +1,73 @@
+/* Общие стили */
+body {
+    background-color: #000000; /* Черный фон */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1 {
+    font-family: 'Involve Regular', sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+h2 {
+    font-family: 'Involve Semi-Bold', sans-serif;
+    color: #F0E016;
+    font-size: 72px;
+    line-height: 1.2;
+}
+
+h3 {
+    font-family: 'Involve Regular', sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+/* Стили для кнопки */
+button {
+    background-color: #F0E016;
+    color: #000000;
+    padding: 22px 50px;
+    font-size: 24px;
+    border: 2px solid #F0E016;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Involve Regular', sans-serif;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #F0E016;
+    border: 2px solid #F0E016;
+}
+
+/* Стили для подвала */
+footer {
+    text-align: left;
+    padding: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Involve Regular', sans-serif;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
