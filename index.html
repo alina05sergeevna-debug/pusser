@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Одностраничный сайт</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Подключение скриптов для оплаты -->
     <script>
-      window.prodamusDomain = 'alina05sergeevna.payform.ru';  <!-- Указываем твое имя -->
-      window.prodamusCurrency = 'rub';  <!-- Указываем валюту рубли -->
+      window.prodamusDomain = 'alina05sergeevna.payform.ru';  <!-- Замени на свое имя -->
+      window.prodamusCurrency = 'rub';  <!-- Валюта: рубли -->
     </script>
     <script src="https://widget.prodamus.ru/src/init.js" async></script>
     <link rel="stylesheet" href="https://widget.prodamus.ru/src/init.css">
@@ -20,6 +22,7 @@
     </header>
 
     <section class="main-content">
+        <!-- Кнопка для оплаты -->
         <button data-prodamusprice="123" data-currency="rub">БОКС НАЧНИ</button>
     </section>
 
@@ -32,5 +35,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
