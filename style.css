@@ -21,7 +21,7 @@ h1 {
 h2 {
     font-family: 'Involve Semi-Bold', sans-serif;
     color: #F0E016;
-    font-size: 62px;
+    font-size: 52px;
     line-height: 1.2;
 }
 
@@ -71,4 +71,5 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
 
