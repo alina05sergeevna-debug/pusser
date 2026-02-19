@@ -1,11 +1,12 @@
-document.querySelector('button').addEventListener('click', function() {
-    // Запуск формы оплаты при клике на кнопку
-    const price = this.getAttribute('data-prodamusprice');
-    const currency = this.getAttribute('data-currency');
+document.getElementById('start-box').addEventListener('click', function() {
+    // Ссылка на оплату
+    const paymentLink = "https://payform.ru/ogaIpeM/";
 
-    // Открытие формы оплаты с переданными данными
-    window.location.href = `https://payform.ru/${price}?currency=${currency}`;
+    // Простой редирект на страницу оплаты
+    window.location.href = paymentLink;
 });
+
+
 
 
 
